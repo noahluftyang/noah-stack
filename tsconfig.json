@@ -1,0 +1,6 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "node16"
+  }
+}

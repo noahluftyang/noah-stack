@@ -1,0 +1,26 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "prepack": "pnpm build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "fast-check": "^3.8.2",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4",
+    "vitest": "^0.31.0"
+  },
+  "exports": "./src/index.ts",
+  "publishConfig": {
+    "exports": {
+      ".": {
+        "import": "dist/index.js",
+        "require": "dist/index.cjs",
+        "types": "dist/index.d.ts"
+      }
+    }
+  }
+}

@@ -24,7 +24,7 @@ importers:
       turbo: 1.9.6
       typescript: 5.0.4
 
-  templates/next-app-router:
+  templates/next:
     specifiers:
       '@types/node': ^20.1.7
       '@types/react': ^18.2.6

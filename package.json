@@ -3,17 +3,20 @@
   "type": "module",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "knip",
+    "lint": "biome check .",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "@commitlint/config-pnpm-scopes": "^17.5.0",
     "@commitlint/types": "^17.4.4",
+    "@tsconfig/strictest": "^2.0.2",
     "@types/node": "^20.1.7",
     "husky": "^8.0.0",
-    "ts-node": "^10.9.1",
+    "knip": "^3.8.0",
     "turbo": "^1.9.4",
     "typescript": "^5.0.4"
   }

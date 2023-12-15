@@ -1,4 +1,5 @@
 {
+  "extends": "@tsconfig/strictest",
   "compileOnSave": false,
   "compilerOptions": {
     "moduleResolution": "node16"

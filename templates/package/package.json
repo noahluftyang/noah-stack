@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "tsup",
-    "prepack": "pnpm build",
+    "prepack": "bun build",
     "test": "vitest"
   },
   "devDependencies": {

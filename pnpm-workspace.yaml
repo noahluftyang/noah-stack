@@ -1,0 +1,14 @@
+packages:
+  - packages/*
+  - templates/*
+
+catalog:
+  "@storybook/addon-essentials": ^8.5.6
+  "@storybook/addon-interactions": ^8.5.6
+  "@storybook/blocks": ^8.5.6
+  "@storybook/react": ^8.5.6
+  "@storybook/react-vite": ^8.5.6
+  "@storybook/test": ^8.5.6
+  storybook: ^8.5.6
+  typescript: ^5.7.3
+  vitest: ^3.0.5

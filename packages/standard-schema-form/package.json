@@ -1,0 +1,43 @@
+{
+  "name": "standard-schema-form",
+  "version": "0.0.0",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "build:storybook": "storybook build",
+    "dev": "rslib build --watch",
+    "dev:storybook": "storybook dev -p 6006",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@standard-schema/spec": "^1.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@hookform/resolvers": "^4.1.0",
+    "@rslib/core": "^0.4.1",
+    "@storybook/addon-essentials": "catalog:",
+    "@storybook/addon-interactions": "catalog:",
+    "@storybook/blocks": "catalog:",
+    "@storybook/react": "catalog:",
+    "@storybook/react-vite": "catalog:",
+    "@storybook/test": "catalog:",
+    "@types/node": "^22.8.1",
+    "formgator": "^0.1.1",
+    "react-hook-form": "^7.54.2",
+    "storybook": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}
